@@ -1,0 +1,97 @@
+* {
+    font-family: 'Sen';
+    border: 1 px solid black;
+}
+
+body,
+html {
+    padding: 0px;
+    margin: 0px;
+    height: 500px;
+    width: 500px;
+    box-sizing: border-box;
+    background-color: #cce7e8
+}
+
+.main {
+    width: 300px;
+    height: 400px
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    font-family: 'Sen';
+    font-size: 30px;
+    line-height: 116px;
+    color: #000000;
+    margin-left: 600px;
+    font-style: bold;
+}
+
+#todoItem {
+    width: 400px;
+    height: 30px;
+    text-align: center;
+    flex-direction: column;
+    border: none;
+    margin-left: 400px;
+}
+
+.btns {
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 75px;
+    height: 35px;
+    margin-left: 400px;
+
+}
+
+.btns1{
+    background-color: #000000;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 130px;
+    height: 35px;
+    margin-left: 550px;
+}
+
+.btns2 {
+    background-color: rgb(204, 79, 104);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 130px;
+    height: 35px;
+    margin-left: 680px;
+   }
+.button{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.todo-list{
+    font-size: 20px;
+    font-family: 'Sen';
+}
+
+.complete-btn {
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 90px;
+    height: 35px;
+}
+
+.delete-btn {
+    background-color: rgb(204, 79, 104);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 90px;
+    height: 35px;
+}
